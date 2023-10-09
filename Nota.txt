@@ -1,0 +1,10 @@
+epoch -> human :
+Delphi	myString := DateTimeToStr(UnixToDateTime(Epoch)); Where Epoch is a signed integer.
+
+human -> epoch :
+Epoch := DateTimeToUnix(StrToDateTime(myString));
+
+
+
+1683327615
+
